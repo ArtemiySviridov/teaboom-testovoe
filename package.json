@@ -1,0 +1,13 @@
+{
+  "name": "teaboom-product-card",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Тестовое задание: адаптивная карточка товара Teaboom",
+  "scripts": {
+    "build": "sass assets/scss/styles.scss assets/css/styles.css --style=expanded --no-source-map",
+    "watch": "sass --watch assets/scss/styles.scss:assets/css/styles.css --style=expanded --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "1.93.2"
+  }
+}
